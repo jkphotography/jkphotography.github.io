@@ -9,6 +9,14 @@
 	font-family: !important;
 }
 
+#button{
+	margin-left: 30px;
+	height: 30px;
+	width: 100px;
+	color: lightgrey;
+	font-size: 20px;
+}
+
 .square{
 	width:450px;
 	height:300px;
@@ -22,6 +30,16 @@
 	border-color: lightgrey;
 }
 
+.watermark{
+	width: 70px;
+	height: 70px;
+	background-image: url("jklogo.png");
+	background-size: contain;
+}
+
+a{text-decoration: none;}
+		
+		
 #photo1{
 	background-image: url("jan4aiden.jpg");
 	background-size: cover;
@@ -66,20 +84,22 @@ body{
 <body>
 
 <center>
-<div id="title"> January 4</div>
+<div id="title"> January 4: Cyclones 14u Practice</div>
 </center>
-<br>
+<a href="index.html">
+	<div id="button"> ⬅ Back </div>	
+	</a>
 <br>
 <center>
-	<div id= "photo1" class="square"></div>
-	<div id= "photo2" class="square"></div>
-	<div id= "photo3" class="square"></div>
-	<div id= "photo4" class="square"></div>
-	<div id= "photo5" class="square"></div>
-	<div id= "photo6" class="square"></div>
-	<div id= "photo7" class="square"></div>
-	<div id= "photo8" class="square"></div>
-	<div id= "photo9" class="square"></div>
+	<div id= "photo1" class="square"><div class="watermark"></div></div>
+	<div id= "photo2" class="square"><div class="watermark"></div></div>
+	<div id= "photo3" class="square"><div class="watermark"></div></div>
+	<div id= "photo4" class="square"><div class="watermark"></div></div>
+	<div id= "photo5" class="square"><div class="watermark"></div></div>
+	<div id= "photo6" class="square"><div class="watermark"></div></div>
+	<div id= "photo7" class="square"><div class="watermark"></div></div>
+	<div id= "photo8" class="square"><div class="watermark"></div></div>
+	<div id= "photo9" class="square"><div class="watermark"></div></div>
 </center>
 
 </body>
